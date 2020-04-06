@@ -5,13 +5,13 @@ bind = "127.0.0.1:8975"
 
 [log]
 type = "terminal"
-level = "info"
+level = "error"
 
 [github]
 client_id = "..."
 client_secret = "..."
 state = "..."   # A randomly generated secret. Can change over restarts.
-required_org = "..."
+required_org = "twily-and-friends"
 
 # Uncomment to enable daemonization
 #[DaemonizeSettings]
